@@ -1,0 +1,35 @@
+.company-block {
+    border: 1px solid #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.company-image {
+    width: 100%;
+}
+
+.oval-text {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 50px;
+    clear: both;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.catchphrase-deadline {
+    font-size: 0.9rem;
+}
+
+.entry-count {
+    font-size: 0.8rem;
+}
+
+

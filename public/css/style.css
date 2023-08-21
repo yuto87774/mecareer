@@ -1,0 +1,277 @@
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --robins-egg-blue: rgba(0, 189, 202, 1);
+    --gray: rgba(127, 127, 127, 1);
+    --star-dust: rgba(158, 158, 158, 1);
+    --blizzard-blue-2: rgba(173, 232, 236, 0.678);
+    --blizzard-blue: rgba(173, 232, 236, 1);
+    --alto: rgba(217, 217, 217, 1);
+    --seashell: rgba(240, 241, 242, 1);
+    --cultured-pearl: rgba(245, 245, 245, 1);
+    --sweet-corn: rgba(246, 236, 140, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xs: 16px;
+    --font-size-s: 12px;
+    --font-size-l: 32px;
+    --font-size-xl: 36px;
+    --font-size-xxl: 48px;
+    --font-size-xxxl: 52px;
+    --font-size-xxxxl: 64px;
+    --font-size-s2: 20px;
+    --font-size-m2: 24px;
+
+    --font-family-inter: "Inter";
+  }
+
+  /* Classes */
+
+  .inter-normal-gray-32px {
+    color: var(--gray);
+    font-family: var(--font-family-inter);
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-52px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-gray-36px {
+    color: var(--gray);
+    font-family: var(--font-family-inter);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-12px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-robins-egg-blue-24px {
+    color: var(--robins-egg-blue);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-gray-13px {
+    color: var(--gray);
+    font-family: var(--font-family-inter);
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-robins-egg-blue-48px {
+    color: var(--robins-egg-blue);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-robins-egg-blue-20px {
+    color: var(--robins-egg-blue);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-robins-egg-blue-36px {
+    color: var(--robins-egg-blue);
+    font-family: var(--font-family-inter);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-star-dust-48px {
+    color: var(--star-dust);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-white-32px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-star-dust-36px {
+    color: var(--star-dust);
+    font-family: var(--font-family-inter);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-10px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-star-dust-64px {
+    color: var(--star-dust);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-48px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-gray-16px {
+    color: var(--gray);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-white-10px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-star-dust-24px {
+    color: var(--star-dust);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-normal-gray-48px {
+    color: var(--gray);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+  .container {
+    font-family: "inter-normal", sans-serif;
+    font-size: 16px;
+    width: 320px;
+    margin: 20px auto;
+  }
+
+  .flex-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .text {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .info-section {
+    margin-top: 20px;
+  }
+
+  .info-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .info-data {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }

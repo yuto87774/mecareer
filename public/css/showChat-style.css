@@ -1,0 +1,17 @@
+.message {
+    margin-bottom: 10px;
+  }
+
+  .own-message {
+    background-color: #DCF8C6;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+  }
+
+  .other-message {
+    background-color: #EAEAEA;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
